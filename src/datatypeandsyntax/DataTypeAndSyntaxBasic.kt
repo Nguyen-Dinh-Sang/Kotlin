@@ -1,4 +1,4 @@
-package datatypevssyntax
+package datatypeandsyntax
 
 fun main(args: Array<String>) {
     println("Data type and syntax")
