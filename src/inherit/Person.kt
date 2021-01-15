@@ -1,9 +1,8 @@
 package inherit
 
-class Person (var firstName: String, var lastName: String) {
-    private var fullName = "$firstName $lastName"
+open class Person (open var firstName: String, var lastName: String) {
 
-    fun hello() {
-        println("Hello $fullName")
+    open fun hello() {
+        println("Hello $firstName $lastName")
     }
 }
