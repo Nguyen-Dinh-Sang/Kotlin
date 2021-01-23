@@ -11,4 +11,6 @@ fun main(args: Array<String>) {
     function2()
 //    var classC = ClassC();
 //    function3()
+    println("Pi: ${TestStatic.pi}")
+    TestStatic.test()
 }
